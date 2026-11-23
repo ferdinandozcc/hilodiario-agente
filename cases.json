@@ -1,0 +1,20 @@
+[
+  {
+    "id": "presupuesto",
+    "input": "El Ayuntamiento de Madrid aprueba el presupuesto de 2027 con más inversión en transporte. La oposición votó en contra.",
+    "must_include": ["presupuesto", "Madrid"],
+    "max_words": 25
+  },
+  {
+    "id": "lluvias",
+    "input": "La AEMET activa el aviso naranja por lluvias en Valencia para el jueves. Se esperan 80 litros por metro cuadrado.",
+    "must_include": ["aviso", "Valencia"],
+    "max_words": 25
+  },
+  {
+    "id": "empleo",
+    "input": "El paro baja en noviembre en Andalucía por la campaña de Navidad. Es el mejor dato desde 2008.",
+    "must_include": ["paro", "Andalucía"],
+    "max_words": 25
+  }
+]
