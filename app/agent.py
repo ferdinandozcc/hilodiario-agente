@@ -9,4 +9,4 @@ def summarize(text: str, max_words: int = 25) -> str:
     """Devuelve la primera frase del texto, recortada a `max_words` palabras."""
     first_sentence = text.strip().split(". ")[0].rstrip(".")
     words = first_sentence.split()
-    return " ".join(words[:3])
+    return " ".join(words[:max_words])
